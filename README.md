@@ -8,7 +8,7 @@ This repository contains the Python code for the DAB111 group project, focusing 
 
 - **main folder**
   - **data processing**
-    - *Include any scripts or notebooks related to data processing.*
+    - refer the [data_processing.ipynb](https://github.com/KarthikeyanBaskaran/DAB111_Final_Project_Group_4/blob/main/data_processing.ipynb) file
   - **database**
     - *Scripts for creating the SQLite database and inserting data.*
   - **website**
