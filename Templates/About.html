@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        /* Custom CSS for increasing the size of <ul> and <li> */
+        ul {
+            list-style-type: none; /* Remove default list style */
+            padding: 0; /* Remove default padding */
+            font-size: 1.2em; /* Adjust font size as needed */
+        }
+
+        li {
+            margin-bottom: 10px; /* Add spacing between list items */
+        }
+        
+        p {
+            font-size: 1.3em; /* Adjust font size as needed for the paragraph */
+            /* You can also add other styles like font-weight, color, etc. */
+        }
+    </style>
+</head>
+<body>
+    <h5>
+    <a href="{{ url_for('index') }}" style="font-size: 20px;">Homepage</a>
+</h5>
+
+
+    <h1>About the "Google Play Store" dataset</h1>
+    
+    <h2>Source of the Data</h2>
+    <p>The data used in this project is sourced from the Google Play Store. It is a web-scraped dataset containing information about various Android apps.</p>
+    <p><a href="https://www.kaggle.com/datasets/lava18/google-play-store-apps/"> Kaggle - Link to the dataset </a></p>
+    <h2>Definition of Variables</h2>
+    <ol style="font-size: 20px;"> <!-- Adjust the font-size value as needed -->
+    <li><strong>App Name:</strong> Application name</li>
+    <li><strong>Reviews:</strong> Number of reviews</li>
+    <li><strong>Size (mb):</strong> The size of the app in mb</li>
+    <li><strong>Installs (M):</strong> Number of app installs</li>
+    <li><strong>Type:</strong> This variable categorizes the app as "Paid" or "Free"</li>
+    <li><strong>Price in $:</strong> This column displays the price if the app is Paid</li>
+    <li><strong>Version:</strong> The current version of the application</li>     
+</ol>
+
+</body>
+</html>

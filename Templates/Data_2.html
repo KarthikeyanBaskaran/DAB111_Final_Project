@@ -1,0 +1,72 @@
+<!-- templates/data_page.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Data Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+
+<body>
+    <h5>
+    <a href="{{ url_for('index') }}" style="font-size: 20px;">Homepage</a>
+</h5>
+    <h1>The Sample of the "Google Play Store" Dataset</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>App Name</th>
+                <th>Reviews</th>
+                <th>Size (mb)</th>
+                <th>Installs (M) </th>
+                <th>Type</th>
+                <th>Price in $</th>
+                <th>Version</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for app in apps %}
+                <tr>
+                    <td>{{ app[0] }}</td>
+                    <td>{{ app[1] }}</td>
+                    <td>{{ app[2] }}</td>
+                    <td>{{ app[3] }}</td>
+                    <td>{{ app[4] }}</td>
+                    <td>{{ app[5] }}</td>
+                    <td>{{ app[7] }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+
+</html>
