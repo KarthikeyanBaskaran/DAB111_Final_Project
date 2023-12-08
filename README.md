@@ -33,7 +33,7 @@ The Flask website serves the data from the SQLite database and includes three ma
 1. Clone this repository to your local machine.
 2. Navigate to the main folder.
 3. Install the required packages by running `pip install -r requirements.txt`.
-4. Execute the Flask application by running `python app.py` in the terminal.
+4. Execute the Flask application by running `python website.py` in the terminal.
 
 Access the website at [http://127.0.0.1:5000/](http://127.0.0.1:5000/).
 
