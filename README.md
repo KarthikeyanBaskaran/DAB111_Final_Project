@@ -10,13 +10,11 @@ This repository contains the Python code for the DAB111 group project, focusing 
   - **data processing**
     - refer the [data_processing.ipynb](https://github.com/KarthikeyanBaskaran/DAB111_Final_Project_Group_4/blob/main/data_processing.ipynb) file
   - **database**
-    - *Scripts for creating the SQLite database and inserting data.*
+    - refer to the [database.ipynb](https://github.com/KarthikeyanBaskaran/DAB111_Final_Project_Group_4/blob/main/database.ipynb) file
   - **website**
-    - *Flask application and related files.*
-  - **Readme.md**
-    - *Project description and setup instructions.*
+    - refer to the [website.py](https://github.com/KarthikeyanBaskaran/DAB111_Final_Project_Group_4/blob/main/website.py) file
   - **requirements.txt**
-    - *List of necessary packages for running the code.*
+    - Find a list of necessary packages for running the code in [requirements.txt](https://github.com/KarthikeyanBaskaran/DAB111_Final_Project_Group_4/blob/main/requirements.txt) file
 
 ## Data Processing
 
